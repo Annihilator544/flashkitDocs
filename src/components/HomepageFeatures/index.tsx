@@ -11,36 +11,40 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Design Anything Fast',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Flashkit offers an intuitive, template-driven design experience so you can
+        create stunning social media graphics, YouTube previews, Instagram posts,
+        and more—fast and hassle-free.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Built-In Social Integration',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Connect your Instagram, YouTube, or TikTok accounts and share your
+        creations directly. Flashkit also provides engagement analytics and EQS
+        scoring to help optimize your content strategy.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Cloud & Canvas',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Design with the Plotono-powered canvas, save projects to the cloud, and
+        access your work from anywhere. Flashkit uses AWS and Firebase to ensure
+        your content is secure, fast, and always available.
       </>
     ),
   },
 ];
+
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
