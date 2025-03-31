@@ -30,7 +30,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   presets: [
     [
       'classic',
@@ -134,6 +137,11 @@ const config: Config = {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
+    },
+    mermaid: {
+      options: {
+        
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
